@@ -1,0 +1,49 @@
+.intro{
+    padding-top: 60px;
+    margin-top: 130px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+    border: 2px solid #0f1111;
+    border-radius: 10px;
+    background-color: #262840;
+    box-shadow: 0 0 8px #262840,
+    0 0 5px #262840,
+    0 0 8px #262840;
+    color: #efefef;
+}
+
+.intro h1{
+    margin: 12px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+.intro h1 span{
+    color: #59b2f4;
+}
+
+.intro P{
+    margin: 12px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+}
+
+@media(max-width: 950px) {
+    .intro{
+        margin-left: 25px;
+        margin-top:100px;
+        margin-right: 25px;
+    }
+
+    .intro h1{
+        margin-bottom: 10px;
+    }
+
+    .intro p{
+        margin: 30px;
+    }
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+::placeholder {
+  color: #fff;
+}
+
+input {
+  background-color: #575757;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 10px;
+  max-width: 220px;
+  color: #fff;
+  transition: 0.2s;
+}
+
+input#search:hover {
+  background: #65747b;
+}
+
+input:focus {
+  outline: none;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+
+.weather {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.weather h2 {
+  display: flex;
+  align-items: center;
+  /* margin-top: 10px; */
+  margin-bottom: 0;
+  padding-left: 90px;
+}
+
+.card {
+  background-color: #081b29;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+  margin-top: 20px;
+}
+
+.more-info p {
+  font-size: 1.1rem;
+  margin: 5px;
+}
+
+.more-info span {
+  font-weight: 600;
+}
+
+#weather-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#weather-chart {
+  max-width: 600px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.weather p {
+  margin: 0; /* Add this line to remove margin from all paragraph tags inside .weather */
+}
+
+.weather p:first-child {
+  margin-top: 0; /* Add this line to remove margin only from the first paragraph tag inside .weather */
+}
+
+
+@media (max-width: 400px) {
+  .weather h2 {
+    padding-left: 32px; /* This line was originally present */
+  }
+
+}
+
+
+@media (min-width: 400px) {
+  .weather h2 {
+    padding-left: 70px; /* This line was originally present */
+  }
+
+}
+
+
+
+
+/* @media (min-width: 1200px) {
+  .card{
+    height: 40%;
+  }
+}
+@media (max-width: 775px) {
+  .card{
+    height: 40%;
+  }
+} */
